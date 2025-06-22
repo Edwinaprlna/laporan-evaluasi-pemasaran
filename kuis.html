@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kuis Evaluasi</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    :root {
+      --theme-color: #004578; /* biru tua seragam */
+    }
+
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: linear-gradient(to bottom, #f0f8ff, #ffffff);
+    }
+
+    header {
+      background-color: var(--theme-color);
+      color: #fff;
+      padding: 2rem 1rem 1rem;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 0.5rem;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+
+    .quiz-section {
+      margin-bottom: 2rem;
+      padding: 1rem;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .quiz-section h3 {
+      margin-bottom: 0.5rem;
+    }
+
+    .quiz-section label {
+      display: block;
+      margin-left: 1rem;
+      margin-bottom: 0.25rem;
+    }
+
+    button[type="submit"] {
+      background-color: var(--theme-color);
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #002f5e;
+    }
+
+    footer {
+      background-color: var(--theme-color);
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kuis Evaluasi Pemasaran Produk Ritel</h1>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="materi.html">Materi</a>
+      <a href="contoh.html">Contoh Laporan</a>
+      <a href="kuis.html">Kuis</a>
+    </nav>
+  </header>
+  <main>
+    <form id="quizForm">
+      <div class="quiz-section">
+        <h3>1. Apa tujuan utama evaluasi pemasaran?</h3>
+        <label><input type="radio" name="q1" value="a"> Menentukan harga produk</label>
+        <label><input type="radio" name="q1" value="b"> Menganalisis efektivitas strategi pemasaran</label>
+        <label><input type="radio" name="q1" value="c"> Menambah stok barang</label>
+      </div>
+      <div class="quiz-section">
+        <h3>2. Elemen dalam bauran pemasaran 4P adalah ...</h3>
+        <label><input type="radio" name="q2" value="a"> People, Profit, Process, Place</label>
+        <label><input type="radio" name="q2" value="b"> Product, Price, Place, Promotion</label>
+        <label><input type="radio" name="q2" value="c"> Planning, Process, Promotion, Placement</label>
+      </div>
+      <div class="quiz-section">
+        <h3>3. Apa fungsi utama penggunaan APD dalam bisnis ritel?</h3>
+        <label><input type="radio" name="q3" value="a"> Menjaga keamanan data</label>
+        <label><input type="radio" name="q3" value="b"> Melindungi pekerja dari bahaya kerja</label>
+        <label><input type="radio" name="q3" value="c"> Meningkatkan penjualan produk</label>
+      </div>
+      <div class="quiz-section">
+        <h3>4. Sistem FIFO berarti ...</h3>
+        <label><input type="radio" name="q4" value="a"> Barang pertama masuk, pertama keluar</label>
+        <label><input type="radio" name="q4" value="b"> Barang terakhir masuk, pertama keluar</label>
+        <label><input type="radio" name="q4" value="c"> Barang lama dibuang</label>
+      </div>
+      <div class="quiz-section">
+        <h3>5. Evaluasi pemasaran dilakukan untuk ...</h3>
+        <label><input type="radio" name="q5" value="a"> Menyusun laporan keuangan</label>
+        <label><input type="radio" name="q5" value="b"> Mencari kelemahan strategi pemasaran</label>
+        <label><input type="radio" name="q5" value="c"> Menghitung gaji karyawan</label>
+      </div>
+      <div class="quiz-section">
+        <h3>6. Strategi promosi menggunakan influencer disebut ...</h3>
+        <label><input type="radio" name="q6" value="a"> Above the line</label>
+        <label><input type="radio" name="q6" value="b"> Personal selling</label>
+        <label><input type="radio" name="q6" value="c"> Endorsement</label>
+      </div>
+      <div class="quiz-section">
+        <h3>7. Apa yang dimaksud dengan ROI dalam pemasaran?</h3>
+        <label><input type="radio" name="q7" value="a"> Rasio Omset Internal</label>
+        <label><input type="radio" name="q7" value="b"> Return on Investment</label>
+        <label><input type="radio" name="q7" value="c"> Revenue Optimization Index</label>
+      </div>
+      <div class="quiz-section">
+        <h3>8. K3 berfungsi untuk ...</h3>
+        <label><input type="radio" name="q8" value="a"> Memaksimalkan keuntungan perusahaan</label>
+        <label><input type="radio" name="q8" value="b"> Menjaga keselamatan kerja</label>
+        <label><input type="radio" name="q8" value="c"> Mempercepat distribusi produk</label>
+      </div>
+      <div class="quiz-section">
+        <h3>9. Waralaba adalah ...</h3>
+        <label><input type="radio" name="q9" value="a"> Pembelian saham di perusahaan</label>
+        <label><input type="radio" name="q9" value="b"> Model bisnis dengan sistem kemitraan merek</label>
+        <label><input type="radio" name="q9" value="c"> Jenis produk makanan ringan</label>
+      </div>
+      <div class="quiz-section">
+        <h3>10. Sistem informasi ritel digunakan untuk ...</h3>
+        <label><input type="radio" name="q10" value="a"> Mengirim email ke pelanggan</label>
+        <label><input type="radio" name="q10" value="b"> Mencatat transaksi dan mengelola stok</label>
+        <label><input type="radio" name="q10" value="c"> Menyimpan uang perusahaan</label>
+      </div>
+      <button type="submit">Lihat Skor</button>
+    </form>
+    <div id="result" style="margin-top: 1rem;"></div>
+  </main>
+  <footer>
+    <p>&copy; 2025 Pembelajaran Ritel | SMK Kelas XI</p>
+  </footer>
+
+  <script>
+    const correctAnswers = {
+      q1: "b",
+      q2: "b",
+      q3: "b",
+      q4: "a",
+      q5: "b",
+      q6: "c",
+      q7: "b",
+      q8: "b",
+      q9: "b",
+      q10: "b"
+    };
+
+    document.getElementById("quizForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      let score = 0;
+      for (let key in correctAnswers) {
+        const radios = document.getElementsByName(key);
+        for (let i = 0; i < radios.length; i++) {
+          if (radios[i].checked && radios[i].value === correctAnswers[key]) {
+            score++;
+          }
+        }
+      }
+      document.getElementById("result").innerHTML = `<h3>Skor Anda: ${score}/10</h3>`;
+    });
+  </script>
+</body>
+</html>
